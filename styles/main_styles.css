@@ -73,7 +73,21 @@ img {
 .featured-work {
   display: block;
 }
+.article-caption{
+  padding: 5px;
+}
 .article-title {
-  font-size: 12px;
+  font-size: 18px;
   display: block;
+}
+.article-description {
+  margin-top: .25em;
+  font-size: 14px;
+  font: 'Noticia Text', serif;
+  color:rgba(0,0,0,.6);
+}
+.article-author {
+  margin-top: .5em;
+  font-size: 16px;
+  color:rgba(0,0,0,.6);
 }
