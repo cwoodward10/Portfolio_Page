@@ -72,6 +72,12 @@ body {
   justify-content: space-between;
   width: 90%;
   margin: 10px auto 10px auto;
+  align-items: center;
+}
+@media screen and (min-width: 900px) {
+  .main-nav {
+    margin: 20px auto 20px auto;
+  }
 }
 h3.site-title{
   margin: 0;
@@ -162,4 +168,15 @@ img.radius {
 }
 .shadow {
   box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+}
+
+/* footer content */
+footer {
+  width:  90%;
+  display: block;
+  margin: 20px auto 20px auto;
+}
+.site-footer {
+  font-size: .75em;
+  text-align: right;
 }
