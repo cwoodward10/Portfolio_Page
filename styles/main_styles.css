@@ -15,20 +15,23 @@ html {
 }
 
 /* set up divisions */
-hr.section-divide {
-  display: block;
-  width: 90%;
-  margin: 10px auto 10px auto;
-  border-style: inset;
-  border-width: 1px;
-}
-
-hr.minor-divide {
+hr {
   display: block;
   width: 100%;
-  margin: 10px auto 10px auto;
+  margin: 10px auto 0px auto;
+  padding: 0;
   border-style: inset;
-  border-width: 1px;
+  border: 1px solid rgba(0,0,0,.9);
+}
+.sect-tag {
+  display: inline-block;
+  margin: 0 0 20px 0;
+  padding: 0 6px 0 3px;
+  border-radius: 0 0 5px 0;
+  background-color: rgba(0,0,0,.9);
+  color: white;
+  font-size: .75em;
+  vertical-align: top;
 }
 /* setting up grid rows */
 .row::before,
